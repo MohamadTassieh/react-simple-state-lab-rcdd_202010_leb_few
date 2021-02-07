@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 1,
-    "start": "2021-02-07T08:00:58.811Z",
-    "end": "2021-02-07T08:00:58.841Z",
-    "duration": 30
+    "start": "2021-02-07T08:01:45.809Z",
+    "end": "2021-02-07T08:01:45.834Z",
+    "duration": 25
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "each sub-array of the default 'values' prop is an array",
       "fullTitle": "<Matrix /> each sub-array of the default 'values' prop is an array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -37,7 +37,7 @@
     {
       "title": "\"before each\" hook for \"is a correctly defined and exported React component which renders a <div> with a className of 'cell'\"",
       "fullTitle": "<Cell /> \"before each\" hook for \"is a correctly defined and exported React component which renders a <div> with a className of 'cell'\"",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: Cannot read property 'value' of undefined\n    at new Cell (src/Cell.js:8:25)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:131:26)\n    at /home/inventive-tier-6465/react-simple-state-lab-rcdd_202010_leb_few/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/1-Cell.test.js:28:17)",
@@ -56,7 +56,7 @@
     {
       "title": "each sub-array of the default 'values' prop is an array",
       "fullTitle": "<Matrix /> each sub-array of the default 'values' prop is an array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
